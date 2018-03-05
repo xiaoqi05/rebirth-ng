@@ -5,12 +5,12 @@ pipeline {
       parallel {
         stage('sleep1') {
           steps {
-            sleep 1
+            sleep 10
           }
         }
         stage('sleep3') {
           steps {
-            sleep 3
+            sleep 30
           }
         }
         stage('sleep4') {
